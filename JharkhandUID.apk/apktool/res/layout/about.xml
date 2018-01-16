@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="150.0dip" android:layout_marginTop="@dimen/activity_horizontal_margin" android:src="@drawable/gov" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="italic" android:textColor="@color/colorPrimaryDark" android:layout_gravity="center_horizontal" android:id="@id/textView5" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="1.This Application Devloped By C-DAC Mumbai.\n2.This application is free for individual and can not be used for commercial purpose.\n3.This application can not be modified and distributed without permission of C-DAC,Mumbai.\n" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/colorPrimaryDark" android:id="@id/TextView3" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Devloper \nC-DAC,Mumbai" android:editable="false" android:inputType="textMultiLine" />
+</LinearLayout>

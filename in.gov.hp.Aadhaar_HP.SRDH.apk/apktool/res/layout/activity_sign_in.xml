@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.5">
+        <EditText android:id="@id/editTextUserNameToLogin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="User Name" android:ems="10">
+            <requestFocus />
+        </EditText>
+        <EditText android:id="@id/editTextPasswordToLogin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Password" android:ems="10" android:inputType="textPassword" />
+        <TextView android:id="@id/tv_imei" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="IMEI" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.5">
+        <TextView android:background="@mipmap/center_logo_aadhaar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.5">
+        <RelativeLayout android:gravity="center" android:orientation="horizontal" android:id="@id/button_main" android:background="#ffffffff" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <LinearLayout android:id="@id/thumbnail" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_alignParentLeft="true">
+                <ImageView android:id="@id/list_image" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/lock_login_screen" android:contentDescription="@string/app_name" />
+            </LinearLayout>
+            <ImageView android:id="@id/imageView1" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/arrow1" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
+            <TextView android:textSize="20.0dip" android:typeface="sans" android:textStyle="bold" android:textColor="#ffd52736" android:gravity="center" android:id="@id/buttonSignIn" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:text="Login to Your Account" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

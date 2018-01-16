@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/imageView3" android:layout_width="150.0dip" android:layout_height="150.0dip" android:src="@drawable/nnet" />
+    <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No Network...!" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:text="\n Please make sure that you are connected to internet via mobile data or wifi" />
+    <Button android:layout_gravity="center" android:id="@id/button1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="RETRY" />
+    <Button android:layout_gravity="center" android:id="@id/button2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="GO TO SETTINGS" />
+</LinearLayout>

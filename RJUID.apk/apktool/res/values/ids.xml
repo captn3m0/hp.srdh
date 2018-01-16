@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="layout">false</item>
+    <item type="id" name="textView3">false</item>
+    <item type="id" name="imageView1">false</item>
+    <item type="id" name="textView4">false</item>
+    <item type="id" name="textView1">false</item>
+    <item type="id" name="textView2">false</item>
+    <item type="id" name="ScrollView01">false</item>
+    <item type="id" name="view1">false</item>
+    <item type="id" name="linearLayout4">false</item>
+    <item type="id" name="linearLayout3">false</item>
+    <item type="id" name="exitBtn">false</item>
+    <item type="id" name="submitBtn">false</item>
+    <item type="id" name="infoBtn">false</item>
+    <item type="id" name="linearLayout2">false</item>
+    <item type="id" name="editTextinfo">false</item>
+    <item type="id" name="linearLayout8">false</item>
+    <item type="id" name="editTextmsg">false</item>
+    <item type="id" name="editMessage">false</item>
+    <item type="id" name="action_settings">false</item>
+</resources>

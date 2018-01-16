@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sub_keywords">
+        <item>Select Service</item>
+        <item>EPIC</item>
+        <item>ICDS</item>
+        <item>NRHM</item>
+        <item>UID</item>
+        <item>TDC</item>
+        <item>WHRADR</item>
+    </string-array>
+</resources>

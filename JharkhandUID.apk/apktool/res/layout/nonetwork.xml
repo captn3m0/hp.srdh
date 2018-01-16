@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/footer">
+        <LinearLayout android:orientation="vertical" android:id="@id/linear2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </ScrollView>
+    <RelativeLayout android:gravity="center" android:id="@id/footer" android:background="@drawable/corner_textbox" android:padding="5.0pt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ff000000" android:gravity="center" android:id="@id/textView3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Department of Electronics and Information Technology, Government of India" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/textView3" android:layout_alignParentBottom="false">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ff000000" android:id="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0pt" android:text="Powered by : " android:layout_centerVertical="true" />
+            <ImageView android:id="@id/imageView2" android:layout_width="18.0pt" android:layout_height="10.0pt" android:src="@drawable/ms4" android:adjustViewBounds="true" android:layout_toRightOf="@id/textView4" android:layout_centerVertical="true" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ff000000" android:id="@id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0pt" android:text="Mobile Seva" android:layout_toRightOf="@id/imageView2" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

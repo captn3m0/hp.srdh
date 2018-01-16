@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rightLayout" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="3.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/lay1" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="5.0dip" android:layout_weight="0.5">
+        <ImageView android:id="@id/ImageUser" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_margin="10.0dip" android:src="@drawable/username" />
+        <TextView android:gravity="center" android:id="@id/ud_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="@style/TextBox" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/laydetails" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0">
+        <ScrollView android:id="@id/mainScrollView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/textview1" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                    <TextView android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Enrolment ID" style="@style/TextBox3" />
+                    <TextView android:gravity="center|left" android:id="@id/ud_enrollid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" style="@style/TextBoxDetails" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/textview2" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                    <TextView android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Date Of Birth" style="@style/TextBox3" />
+                    <TextView android:gravity="center|left" android:id="@id/ud_dateofbirth" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" style="@style/TextBoxDetails" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/textview3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                    <TextView android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Resident Name" style="@style/TextBox3" />
+                    <TextView android:gravity="center|left" android:id="@id/ud_residentname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" style="@style/TextBoxDetails" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/textview4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                    <TextView android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Aadhaar ID" style="@style/TextBox3" />
+                    <TextView android:gravity="center|left" android:id="@id/ud_aadhaarid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" style="@style/TextBoxDetails" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/textview5" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                    <TextView android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Gender" style="@style/TextBox3" />
+                    <TextView android:gravity="center|left" android:id="@id/ud_gender" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" style="@style/TextBoxDetails" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/textview6" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                    <TextView android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Care of" style="@style/TextBox3" />
+                    <TextView android:gravity="center|left" android:id="@id/ud_careoff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" style="@style/TextBoxDetails" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/textview7" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                    <TextView android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Address Building" style="@style/TextBox3" />
+                    <TextView android:gravity="center|left" android:id="@id/ud_addressbuilding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" style="@style/TextBoxDetails" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/textview8" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                    <TextView android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Address Street" style="@style/TextBox3" />
+                    <TextView android:gravity="center|left" android:id="@id/ud_street" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" style="@style/TextBoxDetails" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/textview9" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                    <TextView android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Address Landmark" style="@style/TextBox3" />
+                    <TextView android:gravity="center|left" android:id="@id/ud_adresslandmark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" style="@style/TextBoxDetails" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/textview10" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                    <TextView android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Address Locality" style="@style/TextBox3" />
+                    <TextView android:gravity="center|left" android:id="@id/ud_addresslocality" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" style="@style/TextBoxDetails" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/textview11" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                    <TextView android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="District" style="@style/TextBox3" />
+                    <TextView android:gravity="center|left" android:id="@id/ud_District" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" style="@style/TextBoxDetails" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/textview12" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                    <TextView android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="State" style="@style/TextBox3" />
+                    <TextView android:gravity="center|left" android:id="@id/ud_state" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" style="@style/TextBoxDetails" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/textview13" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                    <TextView android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Pincode" style="@style/TextBox3" />
+                    <TextView android:gravity="center|left" android:id="@id/ud_pincode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" style="@style/TextBoxDetails" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/textview14" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                    <TextView android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Res Gauardian" style="@style/TextBox3" />
+                    <TextView android:gravity="center|left" android:id="@id/ud_res_gauardian_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" style="@style/TextBoxDetails" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/textview15" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                    <TextView android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Res Sub District Address" style="@style/TextBox3" />
+                    <TextView android:gravity="center|left" android:id="@id/ud_res_addr_subdistrict" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" style="@style/TextBoxDetails" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/textview16" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                    <TextView android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Res Address Post Office" style="@style/TextBox3" />
+                    <TextView android:gravity="center|left" android:id="@id/ud_res_addr_po_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" style="@style/TextBoxDetails" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/textview17" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                    <TextView android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="VTC User" style="@style/TextBox3" />
+                    <TextView android:gravity="center|left" android:id="@id/ud_VTC_User" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" style="@style/TextBoxDetails" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:gravity="center|right" android:id="@id/lay3" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5">
+        <Button android:id="@id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="  Back  " style="@style/Button" />
+    </LinearLayout>
+</LinearLayout>

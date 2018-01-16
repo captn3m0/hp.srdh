@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="6.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|right" android:orientation="vertical" android:id="@id/ll1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.5">
+        <LinearLayout android:background="@mipmap/ditlogo" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:orientation="horizontal" android:id="@id/button_main_header" android:background="#ffd52736" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <LinearLayout android:id="@id/thumbnail_header" style="@style/ImageHolder">
+                    <ImageView android:id="@id/list_image_header" android:layout_width="60.0dip" android:layout_height="60.0dip" android:contentDescription="@string/app_name" />
+                </LinearLayout>
+                <ImageView android:id="@id/imageView1_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
+                <TextView android:textSize="18.0sp" android:typeface="sans" android:textStyle="bold" android:textColor="#fffab60f" android:gravity="center" android:id="@id/text_view_header" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/logn_prompt_logout" android:layout_toRightOf="@id/list_image" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+            <RelativeLayout android:orientation="horizontal" android:id="@id/button_username" android:background="#ffffffff" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:id="@id/thumbnail_username" style="@style/ImageHolder">
+                    <ImageView android:id="@id/list_image_username" android:layout_width="@dimen/img_size" android:layout_height="@dimen/img_size" android:src="@drawable/username" android:contentDescription="@string/app_name" />
+                </LinearLayout>
+                <EditText android:id="@id/et_logout" android:hint="Enter Your User ID" style="@style/TextBox" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+            <RelativeLayout android:orientation="horizontal" android:id="@id/button_main_password" android:background="#ffffffff" android:padding="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:id="@id/thumbnail" style="@style/ImageHolder">
+                    <ImageView android:id="@id/list_image_password" android:layout_width="@dimen/img_size" android:layout_height="@dimen/img_size" android:src="@drawable/password" android:contentDescription="@string/app_name" />
+                </LinearLayout>
+                <EditText android:id="@id/editText_password" android:hint="@string/password" android:inputType="textPassword" style="@style/TextBox" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/logoutbutton" android:layout_width="100.0dip" android:layout_marginTop="5.0dip" android:text="Log Out" style="@style/Button" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.5">
+        <TextView style="@style/Footer" />
+    </LinearLayout>
+</LinearLayout>

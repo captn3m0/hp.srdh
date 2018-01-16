@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">HPSRDH</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login">Login</string>
+    <string name="login_start">Login to Your Account</string>
+    <string name="logn_prompt">Please Enter Your Username and Password</string>
+    <string name="logn_prompt_logout">You are already logged in. You need to first logout and then login again to access your account.</string>
+    <string name="password">Password</string>
+    <string name="title_activity_eid__search__list">EID_Search_List</string>
+    <string name="title_activity_log_out">LogOut</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_sign_in">SignIn</string>
+    <string name="title_activity_uid__search__list">UID_Search_List</string>
+    <string name="title_activity_user_details_search">UserDetailsSearch</string>
+    <string name="title_activity_user_list">UserList</string>
+    <string name="username">Username</string>
+</resources>

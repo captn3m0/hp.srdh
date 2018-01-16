@@ -1,4 +1,4 @@
-# hp.srdh
+# srdh.apps
 
 decompiled source code for the various SRDH apps.
 
@@ -19,3 +19,5 @@ e36848b7f438dadd58f16b7a54e2f0921775022d  JharkhandUID.apk
 5717ddd03eec9bc8fa49e9f0cc8012de6a995fe7  RJEID.apk
 a3c4f343f1d49878b306f9a8d09ae4bb254b81c5  RJUID.apk
 ```
+
+The other apps are downloadable from http://apps.mgov.gov.in/
